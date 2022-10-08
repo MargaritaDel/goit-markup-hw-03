@@ -101,7 +101,6 @@ color: var(--accent-color);
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
-    margin-right: 50px;
     color: var(--primary-color);
     font-family: inherit;
     font-style: normal;
@@ -110,9 +109,8 @@ color: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
    }
-   .contacts .link:not(:last-child){
-        margin-right: 0;
-   }
+ 
+
    
 .site-nav {
     display: flex;
@@ -133,6 +131,7 @@ color: var(--accent-color);
 .contacts {
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 .hero {
     background-color: var(--secondary-background-color);
