@@ -136,6 +136,8 @@ color: var(--accent-color);
 .hero {
     background-color: var(--secondary-background-color);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title {
     width: 696px;
